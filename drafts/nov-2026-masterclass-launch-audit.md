@@ -98,3 +98,72 @@ The site is explicitly built for AI-search citation (`llms.txt`, `llms-full.txt`
 - [ ] Decision on publishing OCEBM levels on-page per protocol
 - [ ] Willingness to publish the corrected RCT/SR breakdown if the count comes in below 22/8
 
+---
+
+# 7. Evidence matrix — by indication, area and route
+
+**Decision rule used below:** *strength is a property of a **modality × indication × route** combination, not of a modality.* A Level 1 topical claim does not make the injectable claim Level 1.
+
+- **STRONG** — Level 1–2, direct indication, direct route
+- **MODERATE** — Level 1–2 but adjacent/borrowed, or Level 2–3 direct
+- **WEAK** — Level 4–5, or route mismatch, or in vitro only
+- **NOT SUPPORTED** — no clinical data for that route
+
+## Pillar A — EXOSOMES
+
+| Indication / area | Route | Best evidence | Level | Strength |
+|---|---|---|---|---|
+| Facial skin aging: wrinkles, pigmentation, elasticity, texture, erythema, overall appearance | **TOPICAL** (± microneedling / laser-assisted) | **PMID 41800726** — SR + MA, 39 studies (26 skin). Wrinkle reduction −20.2% (95% CI 15.3–25.2%, P<.001); other skin outcomes +14.7–23.4% | **1** | **STRONG** |
+| Facial skin aging | **TOPICAL** via microneedling | **PMID 37377400** — randomized, split-face, 12-wk (ASCE + MN) | **2** | **STRONG** |
+| Hair — density & thickness (non-scarring: AGA, TE, AA) | **TOPICAL** ± MN **or INTRADERMAL** | **PMID 41800726** (13 hair studies); **37381168** SR; **40955427** SR; **41515899** SR | **1** (SRs, authors call it "preliminary") | **MODERATE–STRONG** |
+| Hair — androgenetic alopecia | **INTRADERMAL injection** | **PMID 39174804** — prospective study | **3–4** | **WEAK–MODERATE** |
+| Post-operative facial scars / rejuvenation | **TOPICAL** after laser | **PMID 41752855** — RCT-titled but PubMed tag = Journal Article | **2–3** | **MODERATE** |
+| Hair regrowth (morphea) | **TOPICAL** after fractional CO₂ | **PMID 40468166** | **4–5** (case) | **WEAK** |
+| Regulatory | — | FDA: exosome products are unapproved biological products; warning letters issued 2025 (Chara Biologics 01/25, Supreme Rejuvenation 05/25, Platinum Biologics 08/25, New Life Medical 09/25) + public safety alerts | — | ⚠️ **LEGAL RISK** |
+
+## Pillar B — PDRN / POLYNUCLEOTIDES
+
+| Indication / area | Route | Best evidence | Level | Strength |
+|---|---|---|---|---|
+| Skin rejuvenation / "skin boosters" (esthetic) | **INTRADERMAL injection** | **PMID 39645667** — SR, polynucleotides in esthetic medicine | **1** design, low-grade primaries | **MODERATE** |
+| Wound healing / tissue regeneration (chronic wounds, donor sites) | **INTRADERMAL / local injection** | **PMID 32757710** — SR, 34 studies (in vitro + in vivo + clinical); mechanism = salvage pathway + adenosine A2A | **1** design, heterogeneous | **MODERATE — but NON-AESTHETIC** |
+| Acne scars | **INTRADERMAL injection** | **PMID 40826297** — RCT-tagged, **n = 17**, open-label, 3 groups | **2** by design, underpowered | **WEAK–MODERATE** |
+| Skin rejuvenation (long-chain polynucleotide filler) | **INJECTABLE** | **PMID 26814448** — 5 patients | **4** (case series) | **WEAK** |
+| Anti-melanogenesis | lab | **PMID 27598132** | **5** | **WEAK** |
+| **Topical PDRN** | **TOPICAL** | 30 PubMed hits, mostly cosmetic formulations; no SR/MA, no RCT | **5** | **NOT SUPPORTED** |
+| Non-dermatologic (orthopaedic, ophthalmic, urologic) | INJECTION | multiple SRs | 1–2 | strong, **OFF-AREA** |
+
+## Pillar C — BIOMIMETIC PEPTIDES
+
+| Indication / area | Route | Best evidence | Level | Strength |
+|---|---|---|---|---|
+| Facial expression wrinkles — acetyl hexapeptide-8 (AH-8, "botox-like") | **TOPICAL** | **PMID 40565185** — narrative review, *Int J Mol Sci* 2025. **The review itself flags poor stratum corneum penetration** due to hydrophilic, large molecule | **5** | **WEAK** |
+| Skin rejuvenation / ECM — recombinant human collagen peptide | **INJECTABLE** (as dermal-filler component) **+ in vitro** | **PMID 41384336** — in vitro 2D/3D model, **funded by L'Oréal R&I** | **5** | **WEAK / PRE-CLINICAL** |
+| Any clinical outcome in humans | — | **No RCT. No SR/MA. No meta-analysis.** | — | **NOT ESTABLISHED** |
+
+## Synthesis — the strength verdict
+
+**Route, not modality, determines the level.** This is the single most important finding for how the masterclass is written:
+
+| Combination | Level | Verdict |
+|---|---|---|
+| Exosomes — **topical** — face & hair | 1–2 | ✅ **Strongest claim in the course.** Teach with confidence |
+| Exosomes — **injectable** — any indication | 3–5 | ⚠️ Weak evidence **+ active FDA enforcement risk** |
+| PDRN — **injectable** — skin rejuvenation | 1–2 (low-grade primaries) | 🟡 Moderate; honest, defensible |
+| PDRN — **injectable** — wound healing | 1 | 🟡 Strong but **off-area** — do not transfer to aesthetics silently |
+| PDRN — **topical** | 5 | 🔴 Not supported |
+| Biomimetic peptides — **topical** | 5 | 🔴 Penetration-limited by the literature's own admission |
+| Biomimetic peptides — **injectable** | 5 (in vitro) | 🔴 Pre-clinical only |
+
+### Three consequences
+
+1. **Split every claim by route.** "Exosomes work" is indefensible; "topical exosomes after microneedling reduce facial wrinkles ~20% (SR/MA, PMID 41800726)" is airtight. The injectable version of the same sentence has no Level 1 support and carries regulatory exposure.
+2. **Biomimetic peptides cannot be presented as equivalent to exosomes.** It is the one pillar with no clinical evidence at any level, in any route. Present it as a research frontier — or drop it from the title, because as a headline pillar it invites the attack.
+3. **PDRN's strong evidence is non-aesthetic.** The Level 1 support sits in wound healing, orthopaedics and ophthalmology. That is legitimate to cite, but it must be labelled as extrapolation, or it becomes the "borrowed evidence" pattern that already weakens the handbook claim.
+
+### Strongest defensible headline for the course
+
+> *Exosomes: Level 1 evidence for topical facial rejuvenation and hair density (SR/MA of 39 human trials). PDRN: Level 1–2 for injectable skin rejuvenation and wound healing. Biomimetic peptides: Level 5, pre-clinical — presented as a research frontier.*
+
+That sentence survives scrutiny. Any version that flattens the three into one confidence level does not.
+
