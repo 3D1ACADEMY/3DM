@@ -245,6 +245,10 @@ Search: `(exosome*) AND (intradermal OR "local injection" OR injected) AND (rand
 
 **Additional overlay:** injectable exosome products are **unapproved biological products** in the US, and FDA enforcement (2025 warning letters) has targeted *injectable* exosome marketers specifically — not topical cosmetic formulations. The injectable route therefore carries the **weakest evidence and the highest regulatory risk simultaneously.**
 
+> **✅ STATUS: ALREADY DISCLOSED.** The masterclass states explicitly that injectable exosomes are **unapproved biologics**. This audit item is therefore **closed** — no action required. Recorded here because it is a credibility asset, not a gap: most exosome marketers in this market either omit the regulatory status or imply approval. Stating it openly is something a sponsor-driven competitor cannot easily copy.
+
+> **⚠️ Remaining distinction to verify:** *regulatory status* and *OCEBM evidence level* are independent disclosures. A course can honestly state "unapproved biologic" while still presenting the exosome evidence base generically — in which case the reader learns the product is unregulated but not that the injectable route is Level 4–5. **Check that the level is stated per route, not only the regulatory status.** If both are stated, this pillar is fully covered.
+
 ## 8.5 Two grading errors to avoid repeating
 
 1. **A systematic review of mixed-design studies is Level 3, not Level 1.** OCEBM reserves Level 1 for a systematic review *of randomized trials*. PMID 41800726 (exosomes in aesthetics) included "human trials", applying ROB2 only to the RCT subset — so it grades to **3**, not 1.
