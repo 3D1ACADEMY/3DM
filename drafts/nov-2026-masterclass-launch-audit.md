@@ -254,3 +254,57 @@ Search: `(exosome*) AND (intradermal OR "local injection" OR injected) AND (rand
 1. **A systematic review of mixed-design studies is Level 3, not Level 1.** OCEBM reserves Level 1 for a systematic review *of randomized trials*. PMID 41800726 (exosomes in aesthetics) included "human trials", applying ROB2 only to the RCT subset — so it grades to **3**, not 1.
 2. **Never let one matrix row span two routes.** An earlier draft of this matrix listed hair exosomes as "TOPICAL ± MN **or INTRADERMAL**" at a single level. That is how the injectable route inherited a grade it never earned: the topical route has Level 2–3 support, the intradermal route has Level 4–5. **One row = one route = one level.**
 
+---
+
+# 9. Indication-level (directness) grading
+
+OCEBM's **indirectness** criterion: a study's level attaches to **the indication it actually measured**, not to the modality in general. "General skin quality of the face" ≠ "crow's feet" ≠ "facial wrinkles." A whole-face skin-quality trial cannot support a site-specific claim.
+
+## 9.1 What each pivotal study actually measured
+
+| PMID | Indication as studied | Outcome measures used | Route | Level |
+|---|---|---|---|---|
+| **37377400** | **General facial skin aging** (whole face, n = 28) | GAIS; wrinkles, elasticity, hydration, pigmentation — PRIMOS, Cutometer, Corneometer, Mark-Vu | TOPICAL + microneedling | **2** |
+| **41800726** | Facial skin **pooled** (wrinkles, pigmentation, elasticity, texture, erythema, overall) + hair density/thickness | Pooled % improvement; wrinkle −20.2% | **mixed** (topical ± MN, some injectable) | **3** |
+| **29340854** | **Pattern hair loss (AGA)** | Hair density/thickness, split-scalp | 1927nm thulium device | **2** |
+| **32248707** | **Periocular rejuvenation** | Split-face, polynucleotide vs HA filler | INJECTABLE | **2** |
+| **39645667** | Skin rejuvenation — **injection areas VARIED** | Wrinkles, texture, elasticity | INJECTABLE | **3** |
+| **40826297** | **Acne scars**, Grade 2–5 | Scar grading | INJECTABLE | **3** |
+| **27050701** | Topical skin rejuvenation (matrikine-like micro-protein complex) | Randomized trial | TOPICAL | **2** |
+| **40565185** | Expression wrinkles (AH-8) | Narrative review | TOPICAL | **5** |
+
+## 9.2 Indication → what may actually be claimed
+
+| Indication / area | Modality | Route | Level | Claim defensible? |
+|---|---|---|---|---|
+| **General facial skin quality / aging** | Exosomes | **TOPICAL** ± MN | **2–3** | ✅ **YES** — the core defensible claim |
+| Facial wrinkles (site unspecified) | Exosomes | TOPICAL | 2–3 | ✅ YES — if stated as whole-face, unspecified site |
+| **Crow's feet / periorbital** | Exosomes | TOPICAL | — | ❌ **NO STUDY EXISTS — cannot claim** |
+| **Periocular** | **Polynucleotides** | **INJECTABLE** | **2** | ✅ **YES** — RCT vs HA (32248707) |
+| Under-eye / tear trough | Polynucleotides | INJECTABLE | 3 | 🟡 SR only (41615388) |
+| Acne scars | PDRN | INJECTABLE | 3 | 🟡 |
+| Pattern hair loss (AGA) | **Thulium 1927nm** | device | **2** | ✅ YES |
+| Pattern hair loss (AGA) | **PRP** | INJECTABLE | **1** | ✅ YES |
+| Pattern hair loss (AGA) | Exosomes | TOPICAL / INJ | 3 | 🟡 |
+| Alopecia areata | Exosomes | — | 3 | 🟡 |
+| Wound healing | PDRN | INJECTABLE | 3 | 🟡 **off-area** |
+| Expression wrinkles | Biomimetic peptides | TOPICAL | 5 | ❌ |
+| Crow's feet | Biomimetic peptides | TOPICAL | — | ❌ no site-specific trial |
+
+## 9.3 The key asymmetry — and it is commercially useful
+
+- **Exosome evidence is for GENERAL facial skin quality** (whole-face, instrumentally measured).
+- **Polynucleotide evidence is SITE-SPECIFIC periocular** (an actual RCT against HA filler, PMID 32248707).
+
+So the evidence supports teaching **exosomes for whole-face skin quality** and **polynucleotides for the periorbital region** — and *not* the reverse. That is a non-obvious, defensible, differentiating teaching point, and it is the exact opposite of how the market usually presents the two.
+
+## 9.4 ⚠️ Retraction problem in the polynucleotide literature
+
+| PMID | What it was | Status |
+|---|---|---|
+| **25473210** | Phase III, randomized, double-blind, matched-pairs clinical trial | **RETRACTED** |
+| **39313949** | Randomized, participant- and evaluator-blinded, matched-pair prospective study | **RETRACTED** |
+| **38481069** | "Skin boosters: Definitions and varied classifications" | **RETRACTED** |
+
+**Action:** screen every polynucleotide/PDRN citation against PubMed's retraction tag before publication. Three retractions in one small literature is a high rate, and citing any of them would be the most damaging possible error in an "evidence-based" course.
+
