@@ -167,3 +167,65 @@ The site is explicitly built for AI-search citation (`llms.txt`, `llms-full.txt`
 
 That sentence survives scrutiny. Any version that flattens the three into one confidence level does not.
 
+---
+
+# 8. OCEBM 2011 grading only (Treatment Benefits table)
+
+**Rules applied.** Level 1 = systematic review of **randomized trials** (or n-of-1). Level 2 = individual randomized trial, or observational study with dramatic effect. Level 3 = non-randomized controlled cohort/follow-up. Level 4 = case-series, case-control, or historically controlled. Level 5 = mechanism-based reasoning. Levels are graded **down** for risk of bias, imprecision, indirectness and publication bias; **up** for large magnitude of effect.
+
+**Critical consequence:** a systematic review is **only Level 1 if it is a systematic review of randomized trials.** A systematic review of mixed or observational studies is Level 3. A narrative review is Level 5.
+
+## 8.1 Every key citation, re-graded
+
+| PMID | Design actually used | OCEBM level |
+|---|---|---|
+| **28396101** | *"A systematic review of randomized controlled trials... included only RCTs of good or fair quality"* — AGA treatments | **1** ✅ |
+| **37533146** | SR + MA explicitly *"of Randomized Controlled Trials"* — PRP for AGA | **1** ✅ |
+| **37377400** | Randomized split-face trial, 12 wk — topical exosome + microneedling | **2** |
+| **29340854** | Randomized, evaluator-blinded split-scalp trial — 1927nm thulium laser, pattern hair loss | **2** |
+| **11809594** | Phase III, multicentre randomized trial — finasteride | **2** |
+| **40826297** | RCT-tagged but **n = 17**, open-label, 3 arms — PDRN, acne scars | **2** → graded **down to 3** (imprecision) |
+| **41752855** | Titled "randomized clinical study"; PubMed tags it Journal Article — laser-assisted exosomes | **2 (provisional)** |
+| **41800726** | SR + MA of **"human trials"** (39 studies; ROB2 applied to the RCT subset only) — exosomes in aesthetics | **3** ⚠️ *not Level 1* |
+| **40955427** | SR: **"two RCTs, three retrospective, three prospective single-arm, one case series, two case reports"** — exosomes & hair | **3** ⚠️ |
+| **37381168** | SR of mixed studies, authors describe evidence as *"preliminary"* — exosomes, hair | **3** |
+| **41515899** | SR of *"Clinical **and Experimental** Evidence"* — exosomes, alopecia areata | **3** |
+| **39645667** | SR, 9 studies *"of low and moderate quality"*, 219 patients, **narrative synthesis** — polynucleotides | **3** |
+| **32757710** | SR of *"in vitro, in vivo and clinical"* studies — PDRN, wound healing | **3** (mechanism content = 5) |
+| **39404126** | SR + MA, 38 studies, mixed designs — LLLT/LED, alopecia | **3** |
+| **39174804** | Prospective **single-arm** study — exosomes, AGA | **4** |
+| **40468166** | Case-level — CO₂ laser-assisted exosomes, morphea | **4** |
+| **26814448** | **5 patients** — long-chain polynucleotide filler | **4** |
+| **40565185** | Narrative review — acetyl hexapeptide-8, topical | **5** |
+| **41384336** | **In vitro** 2D/3D model (L'Oréal-funded) — recombinant collagen peptide | **5** |
+| 28491036 / 34832885 / 37350391 / 27598132 | Narrative reviews + bench | **5** |
+| **Topical PDRN** | No clinical studies identified | **5** |
+
+## 8.2 OCEBM level and grade — modality × indication × route
+
+Grade A = consistent Level 1 · B = consistent Level 2–3, or extrapolation from Level 1 · C = Level 4, or extrapolation from Level 2–3 · D = Level 5 or inconsistent.
+
+| Modality | Indication / area | Route | OCEBM level | Grade |
+|---|---|---|---|---|
+| Exosomes | Facial skin aging (wrinkles −20.2%, elasticity, texture, pigment) | **TOPICAL** ± MN/laser | **2** (RCT 37377400); **3** (SR/MA 41800726) | **B** |
+| Exosomes | Hair density & thickness | **TOPICAL** ± MN / **INTRADERMAL** | **2** (2 RCTs within SR 40955427); **3** (SRs) | **B** |
+| Exosomes | Androgenetic alopecia | **INTRADERMAL** | **4** | **C** |
+| Exosomes | Post-op facial scars | **TOPICAL** after laser | **2–3** | **B/C** |
+| **Thulium 1927nm laser** (the "Lase" leg) | Pattern hair loss | device (topical field) | **2** (RCT 29340854) | **B** |
+| PDRN / PN | Skin rejuvenation, "skin boosters" | **INTRADERMAL** | **3** | **B** (downgraded) |
+| PDRN | Wound healing / regeneration | **INTRADERMAL** | **3** | **B** — but **off-area** |
+| PDRN | Acne scars | **INTRADERMAL** | **3** (RCT graded down) | **C** |
+| PDRN | Any indication | **TOPICAL** | **5** | **D** |
+| Biomimetic peptides | Expression wrinkles (AH-8) | **TOPICAL** | **5** | **D** |
+| Biomimetic peptides | Skin rejuvenation / ECM | **INJECTABLE** / in vitro | **5** | **D** |
+| PRP · LLLT · finasteride · thulium (hair) | AGA / non-scarring alopecia | injectable / device | **1–2** | **A/B** ← strongest in the corpus |
+
+## 8.3 Corrected headline (OCEBM-accurate)
+
+> **Level 1 (SR of RCTs):** hair restoration — PRP and medical/device treatments for androgenetic alopecia (PMIDs 28396101, 37533146).
+> **Level 2 (individual RCTs):** topical exosome + microneedling for facial aging; 1927nm thulium laser for pattern hair loss.
+> **Level 3 (SR of mixed/observational studies):** exosomes in aesthetics and hair; injectable polynucleotides; LLLT in alopecia.
+> **Level 4–5:** injectable exosomes; topical PDRN; **all biomimetic peptide claims.**
+
+**What must change from the current marketing:** exosome claims cannot be presented as Level 1. The Level 1 evidence in this corpus belongs to **hair restoration**, not to exosomes, PDRN or peptides. That is the accurate and still-strong position — and it is defensible line by line.
+
