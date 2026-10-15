@@ -229,3 +229,24 @@ Grade A = consistent Level 1 · B = consistent Level 2–3, or extrapolation fro
 
 **What must change from the current marketing:** exosome claims cannot be presented as Level 1. The Level 1 evidence in this corpus belongs to **hair restoration**, not to exosomes, PDRN or peptides. That is the accurate and still-strong position — and it is defensible line by line.
 
+## 8.4 Injectable exosomes — the evidence gap, stated exactly
+
+Search: `(exosome*) AND (intradermal OR "local injection" OR injected) AND (randomized) AND (skin OR facial OR hair)` → **11 hits, of which none is a human RCT of injectable exosomes for a dermatologic/aesthetic indication.**
+
+| PMID | Design | OCEBM | Relevance |
+|---|---|---|---|
+| 41127712 | **Case reports** (2 cases) — adipose exosomes, refractory alopecia areata | **4** | Closest human dermatologic injectable evidence |
+| 42559508 | **Experimental** — intradermal human secretomes / plant exosomes, hair regeneration | **5** | Pre-clinical |
+| 31814909 | **Rat** model — local injection of BMSC exosomes, skin flap | **5** | Animal |
+| 41716608 | Randomized **in vivo** (animal) — human exosome injection, intact skin | **5** | Animal despite "randomized" |
+| 40500748 | Human **RCT** — exosome injection for **knee osteoarthritis** | 2 | **Off-area** (orthopaedic) |
+
+**Conclusion:** injectable exosomes for skin/hair sit at **Level 4 (case reports) to Level 5 (animal/experimental) — Grade C/D.** The only Level 2 injectable-exosome RCT in the literature is in **knee osteoarthritis**, which is the same "borrowed evidence" pattern as PDRN wound healing. Do not transfer it to facial or scalp indications without labelling it as extrapolation.
+
+**Additional overlay:** injectable exosome products are **unapproved biological products** in the US, and FDA enforcement (2025 warning letters) has targeted *injectable* exosome marketers specifically — not topical cosmetic formulations. The injectable route therefore carries the **weakest evidence and the highest regulatory risk simultaneously.**
+
+## 8.5 Two grading errors to avoid repeating
+
+1. **A systematic review of mixed-design studies is Level 3, not Level 1.** OCEBM reserves Level 1 for a systematic review *of randomized trials*. PMID 41800726 (exosomes in aesthetics) included "human trials", applying ROB2 only to the RCT subset — so it grades to **3**, not 1.
+2. **Never let one matrix row span two routes.** An earlier draft of this matrix listed hair exosomes as "TOPICAL ± MN **or INTRADERMAL**" at a single level. That is how the injectable route inherited a grade it never earned: the topical route has Level 2–3 support, the intradermal route has Level 4–5. **One row = one route = one level.**
+
