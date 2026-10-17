@@ -1,0 +1,56 @@
+---
+title: "Free API keys"
+description: "Where to get a working API key for free, in one screen"
+---
+
+Every provider below gives you a usable key without paying. Most never ask for a card. Limits are typical values as of October 2026 — always confirm on the provider's pricing page before you build on one.
+
+## No key at all
+
+Start here if you just want to try something. These need no signup:
+
+- **Weather** — Open-Meteo, MET Norway, National Weather Service, wttr.in
+- **Geo** — Nominatim and Overpass (OpenStreetMap), Zippopotam.us, REST Countries
+- **Finance** — CoinPaprika, Binance market data, mempool.space, Frankfurter (FX), SEC EDGAR
+- **Reference** — Wikipedia/Wikimedia REST, Open Library, Gutendex, Internet Archive, Library of Congress
+- **Fun & data** — Hacker News, Bluesky public API, TVmaze, Jikan, AniList, SWAPI, PokeAPI, Open Trivia DB, Dog CEO, iTunes Search, MusicBrainz, Deezer, Radio Browser
+
+## LLM APIs — free key, no card
+
+| Provider | Free tier | Get key |
+| --- | --- | --- |
+| Google AI Studio (Gemini) | Permanent free tier, 5–30 RPM by model | [aistudio.google.com](https://aistudio.google.com/app/apikey) |
+| Groq | Permanent free tier, 30 RPM | [console.groq.com](https://console.groq.com/keys) |
+| OpenRouter | Free models, 20 RPM | [openrouter.ai](https://openrouter.ai/keys) |
+| Cohere | Permanent free trial key, 20 RPM | [dashboard.cohere.com](https://dashboard.cohere.com/api-keys) |
+| Cerebras | Free trial credits, 5 RPM | [cloud.cerebras.ai](https://cloud.cerebras.ai) |
+| GitHub Models | Free with a GitHub account | [github.com/marketplace/models](https://github.com/marketplace/models) |
+| Cloudflare Workers AI | Daily free allocation | [dash.cloudflare.com](https://dash.cloudflare.com) |
+| Hugging Face Inference | Monthly free credits | [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens) |
+
+Phone verification required: **Mistral** ([console.mistral.ai](https://console.mistral.ai/api-keys)), **NVIDIA NIM** ([build.nvidia.com](https://build.nvidia.com)).
+
+## Other APIs — free key, no card
+
+| Category | Providers (free tier) |
+| --- | --- |
+| Weather | [OpenWeatherMap](https://home.openweathermap.org/api_keys) 1K calls/day · [WeatherAPI](https://www.weatherapi.com/signup.aspx) 1M calls/mo · [Tomorrow.io](https://app.tomorrow.io) 500/day · [Visual Crossing](https://www.visualcrossing.com/weather-api) 1K records/day |
+| Maps | [Mapbox](https://account.mapbox.com/access-tokens) 100K requests/mo · [Geoapify](https://myprojects.geoapify.com) 3K/day · [LocationIQ](https://locationiq.com/register) 5K/day · [OpenCage](https://opencagedata.com/api) 2.5K/day |
+| Finance | [Alpha Vantage](https://www.alphavantage.co/support/#api-key) 25/day · [Twelve Data](https://twelvedata.com/pricing) 800/day · [Finnhub](https://finnhub.io/register) 60/min · [Polygon](https://polygon.io/dashboard/api-keys) 5/min · [CoinGecko](https://www.coingecko.com/en/developers/dashboard) 10K/mo · [CoinMarketCap](https://pro.coinmarketcap.com/signup) 15K credits/mo |
+| News | [NewsAPI](https://newsapi.org/register) 100/day (dev only) · [GNews](https://gnews.io) 100/day · [NewsData](https://newsdata.io/register) 200/day · [Mediastack](https://mediastack.com/signup/free) 500/mo · [The Guardian](https://open-platform.theguardian.com/access) 5K/day · [NYT](https://developer.nytimes.com) 500/day |
+| Images | [Unsplash](https://unsplash.com/oauth/applications) 50/hr · [Pexels](https://www.pexels.com/api/new/) 200/hr · [Pixabay](https://pixabay.com/api/docs/) 100/min · [GIPHY](https://developers.giphy.com/dashboard/) 1K/day |
+| Media & data | [TMDB](https://www.themoviedb.org/settings/api) · [OMDb](https://www.omdbapi.com/apikey.aspx) 1K/day · [api.data.gov](https://api.data.gov/signup/) 1K/hr · [GitHub token](https://github.com/settings/tokens) 5K/hr |
+| Security | [VirusTotal](https://www.virustotal.com/gui/my-apikey) 500/day · [AbuseIPDB](https://www.abuseipdb.com/account/api) 1K/day |
+| Email | [Resend](https://resend.com/api-keys) 3K/mo · [Brevo](https://app.brevo.com) 300/day · [Mailjet](https://app.mailjet.com) 6K/mo · [SendGrid](https://app.sendgrid.com) 100/day |
+| Backend | [Supabase](https://supabase.com/dashboard) · [Neon](https://console.neon.tech) · [Sentry](https://sentry.io) 5K errors/mo · [Clerk](https://dashboard.clerk.com) 10K MAU |
+
+## Free tier, but a card or trial is involved
+
+- **Cloud credits** — Google Cloud, Azure, AWS (limited-time free credits).
+- **One-time trial credit** — Replicate, Fireworks AI, Nebius, Novita, Scaleway, Cerebras.
+- **Card required for verification** — Google Maps Platform ($200/mo credit), many finance and geocoding APIs.
+- **SMS activation** — some SMS, scraping, and proxy APIs require a verified phone number.
+
+<Warning>
+  Free tiers change without notice, and many are non-commercial or development-only. Read the terms before you ship, keep your key in an environment variable, and never commit it to git.
+</Warning>
